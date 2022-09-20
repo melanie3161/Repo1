@@ -3,17 +3,24 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: rgba(160, 232, 241, 0.4);
+    /* background-color: rgba(160, 232, 241, 0.4); */
+    background-image: url("/images/rubiks.jpg");
+    
+}
+
+h1 {
+    color: blue;
 }
 
 .box {
-    width: 400px;
-    padding: 30px;
-    top: 50%;
+    width: 580px;
+    padding: 5px;
+    top: 50px;
     left: 50%;
-    transform: translate(50%,50%);
-    background: rgba(24, 10, 85, 0.267);
+    transform: translate(65%,65%);
+    background: rgba(245, 133, 4, 0.637);
     text-align: center;
+    
 }
 .box {
     color: white;
@@ -25,17 +32,46 @@ body {
     border: 0;
     background: none;
     display: block;
+    margin: 2px auto;
+    text-align: center;
+    border: 1px solid rgb(17, 17, 17);
+    padding: 14px 10px;
+    width: 150px;
+    outline: none;
+    color: rgb(249, 250, 250);
+    border-radius: 12px;
+    transition: 0.25px;
+    cursor: pointer;
+
+}
+.box input[type="text"],
+.box input[type="password"]{
+   
+    width: 270px;
+    border-color: rgb(243, 247, 4);
+    color: rgb(253, 249, 249);
+
+}
+
+.box input[type="submit"]:hover{
+    background: rgb(7, 243, 46);
+}
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
     margin: 20px auto;
     text-align: center;
-    border: 3px solid rgb(17, 17, 17);
-    padding: 14px 10px;
-    width: 220px;
+    border: 3px solid black;
+    padding: 14px 35px;
     outline: none;
     color: white;
     border-radius: 24px;
     transition: 0.25px;
-
+    cursor: pointer;
 }
-.box input[type="text"]:focus,.box input[type="password"]:focus{
-    
-}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.75; /* Firefox */
+  }
+  

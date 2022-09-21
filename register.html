@@ -9,10 +9,10 @@
 
  </head>  
  
- <body> 
+ <body class="register login"> 
     <nav>
         <a href="index.html">Home</a>
-        <a href="userlogin.html">Login</a>
+        <a href="login.html">Login</a>
         <a href="products.html">Products</a>
         <a href="checkout.html">Checkout</a>
         <a href="register.html">Register</a>
@@ -20,10 +20,39 @@
 
     
     
+<form class="box" action="register.html" method="post">
 
+
+<h2>Register</h2>
+
+<input type="text" name="username" placeholder="Username" id="username" minlength="3" required>
+<input type="password" name="password" placeholder="Password" id="password" minlength="8" required>
+
+<input type="password" name="comfirmpassword" placeholder="Confirm Password" id="comfirmpassword" minlength="8" required>
+
+<input type="email" name="email" placeholder="Email" id="email" minlength="3" required>
+<br>
+<p>
+    How did you hear about us?  
+</p>
+<label>
+    <input type="radio" name="hear" value="instagram"> Instagram
+</label>
+<label>
+    <input type="radio" name="hear" value="google"> Google 
+</label>
+<label>
+    <input type="radio" name="hear" value="other" checked required> other 
+</label>
+<input type="text" name="other" placeholder="If other type source here"> 
+<br>
+<input type="submit" name="" value="submit">
+
+</form>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
 </body>
 
 </html>
+
 

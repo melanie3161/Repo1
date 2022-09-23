@@ -149,13 +149,22 @@ body.index .box {
     text-align: right;
 }
 
+.fa-cart-shopping {
+    margin-left: 30em;
+    margin-top: 0.5em;
+}
 
-
+.card{
+    margin-left: 2em;
+    margin-top: 3em;
+    display: inline-block;
+    width: 25vw;
+}
 
 body {
     font-family: Arial;
     font-size: 17px;
-    padding: 8px;
+
 }
 
 * {
@@ -205,6 +214,8 @@ body {
 
 }
 
+input[type="email"],
+input[type="password"],
 input[type=text] {
     width: 100%;
     margin-bottom: 20px;
@@ -262,5 +273,3 @@ span.price {
     .col-25 {
         margin-bottom: 20px;
     }
-
-    

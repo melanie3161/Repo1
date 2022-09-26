@@ -9,6 +9,12 @@ body {
 
 }
 
+.card img{
+    object-fit: cover;
+    height: 21vh;
+    width: 21vh;
+}
+
 body.products {
     width: auto;
 }
@@ -160,7 +166,9 @@ body.index .box {
     margin-left: 2em;
     margin-top: 3em;
     display: inline-block;
-    width: 25vw;
+    width: 23vw;
+    min-height: 325px;
+
 }
 
 
